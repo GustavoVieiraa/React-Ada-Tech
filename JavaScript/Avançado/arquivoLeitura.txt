@@ -1,0 +1,3 @@
+Nome: Gustavo Vieira
+Idade: 21
+Altura: 1.73
