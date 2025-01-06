@@ -1,0 +1,13 @@
+JSON, do Inglês, JavaScript Object Notation (Notação de Objetos JavaScript).
+
+É uma formatação leve de troca de dados.
+
+Para humanos: fácil de ler e escrever.
+
+Para máquinas: fácil de interpretar e gerar.
+
+Embora inspirado nos objetos do JavaScript, é um formato que independe de linguagem.
+
+Utliza convenções familiares a diferentes linguagens de programação.
+    -> Coleção de pares nome/valor (objeto, dicionário, record, struct...)
+    -> Lista ordenada de valores (array, lista, vetor, sequência...).
