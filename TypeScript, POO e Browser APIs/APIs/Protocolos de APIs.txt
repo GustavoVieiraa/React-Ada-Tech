@@ -1,0 +1,75 @@
+    -> Os protocolos servem para padronizar a troca de dados
+entre a aplicação e a API.
+
+    -> Existem diferentes protocolos de APIs, como RPC, SOAP, GraphQL
+    e REST.
+
+    -> O REST é o padrão mais comum.
+
+    -> REST (Representational State Transfer) se baseia em seis restrições. 
+    Caso uma API respeite essas 6 restrições, ela é considerada uma API
+    RESTful.
+
+
+Características de APIs REST:
+
+    -> Ter uma arquitetura formada por clientes, servidores e recursos, com
+    solicitações gerenciadas por HTTP.
+
+    -> Estabelecer uma comunicação stateless entre cliente e servidor.
+    Isso significa que nenhuma informação do cliente é armazenada entre
+    solicitações GET e todas as solicitações são reparadas e desconectadas.
+
+    -> Armazenar dados em cache para otimizar as interações entre cliente e servidor.
+
+    -> Ter uma interface uniforme entre os componentes para que as informações
+    sejam transferidas em um formato padronizado.
+
+    -> Ter um sistema em camadas que organiza os tipos de servidores (responsáveis pela
+    segurança, pelo carregamento de carga e assim por diante) envolvidos na recuperação
+    das informações solicitadas em hierarquias que o cliente não pode ver.
+
+    -> Possibilitar código sob demanda (opcional): a capacidade de enviar um código executável
+    do servidor para o cliente quando solicitado para ampliar a funcionalidade disponível ao
+    cliente.
+
+    -> Os recursos são solicitados/enviados via protocolo HTTP.
+
+    -> URI Base (Base URL): Várias APIs fornecem um "endereço base".
+    Todas as suas requisições incluirão esse endereço, e ao final dele
+    nós colocamos detalhes específicos para cada um dos recursos disponíveis.
+
+    -> Formato do dado/recurso: Algumas APIs possuem formatos fixos de dados.
+    Outras permitem que você escolha. É comum, por exemplo, que uma API permita
+    que você escoha entre JSON, XML, CSV e/ou outros formatos.
+
+Como utilizar:
+
+    -> Schemas: É bastante comum que as APIs disponibilizarem um "modelo" genérico de como
+    será formatado o seu JSON para que os desenvolvedores saibam quais campos esperar e
+    quais tipos de dados serão possíveis para cada campo. Por exemplo:
+
+    {
+        'nome': string,
+        'pontuacao': integer
+    }
+
+Autentificação:
+
+    -> Outro aspecto importante é a Autentificação. Enquanto algumas APIs são grátis/abertas,
+    outras são pagas. Ainda temos algumas híbridas (é possível acessar gratuitamente certos
+    recursos, ou consumir um certo volume de dados, e acima disso você deverá pagar).
+
+    a. Os dois modelos mais comuns de autentificação:
+        i. Chave: ao fazer seu registro, você recebe uma chave que deverá ser passada na requisição.
+
+        ii. OAuth: um esquema um pouco mais complexo onde são combinados códigos de autorização, 
+        identificação do cliente e segredo do cliente em um POST, e o servidor cria uma sessão
+        por um tempo limitado e fornece o ID da mesma. APIs de gigantes da internet (como Google e Facebook)
+        costumam usar esse modelo.
+
+Endpoint: 
+
+    -> A URL completa que deve ser acessada a fim de obter um recurso específico.
+
+    

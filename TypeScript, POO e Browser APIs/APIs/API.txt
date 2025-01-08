@@ -1,0 +1,30 @@
+API (Application Programming Interface)
+
+ -> Em português, Interface de Programação de Aplicações.
+ -> Hoje em dia é muito comum que diferentes aplicações consumam dados pela internet,
+ muitas vezes dados providenciados por terceiros.
+ -> Por exemplo, um aplicativo de entrega de alimentos pode usar dados de geolocalização
+ do Google para localizar restaurantes próximos ao usuário e exibir a rota percorrida pelo
+ entregador.
+
+ -> Como essas aplicações podem estar rodando em diferentes plataformas e linguagens de programação,
+    é importante estabelecer uma "linguagem comum" para que todos consigam esses dados.
+
+ -> A API é uma interface que nos permite utilizar funcionalidades/recursos de terceiros, seguindo um
+    conjunto de definições/contratos estabelecidos pelo terceiro.
+
+Exemplos:
+
+    -> Login Social
+    -> Pagamento online
+
+A API acaba facilitando a vida dos programadores, pois reduz o tempo de desenvolvimento de 
+novas aplicações.
+
+Tipos de APIs
+
+    -> Públicas ou abertas
+    -> Privadas ou internas
+    -> APIs de Parceiros
+
+    
