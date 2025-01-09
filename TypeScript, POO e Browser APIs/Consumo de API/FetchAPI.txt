@@ -1,0 +1,5 @@
+
+Fetch API é uma API do Browser!!
+
+Ela é utilizada para obter dados / fazer requisições de API's.
+
