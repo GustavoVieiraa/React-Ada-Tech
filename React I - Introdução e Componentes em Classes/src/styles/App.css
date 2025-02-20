@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+section#articles{
+    max-width: 1240px;
+    padding: 0 5cqi;
+    margin: 4rem auto;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.ciclo {
+    margin: 2rem;
+}
+
+button {
+    padding: 12px;
+    margin: 2rem;
+}

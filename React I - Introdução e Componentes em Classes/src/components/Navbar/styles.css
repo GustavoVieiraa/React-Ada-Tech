@@ -1,0 +1,45 @@
+nav .nav-brand img {
+    width: 64px;
+}
+
+header {
+    background-color: #333333;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+header nav#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 90px;
+}
+
+header nav#navbar .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav#navbar .nav-brand h1 {
+    font-family: "Grenze", serif;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+header nav#navbar ul.nav-list {
+    display: flex;
+    align-items: center;
+    
+    list-style: none;
+    gap: 1rem;
+}
+
+
+header nav#navbar ul.nav-list li a {
+    color: #FEFEFE;
+    font-size: 1.2rem;
+}
