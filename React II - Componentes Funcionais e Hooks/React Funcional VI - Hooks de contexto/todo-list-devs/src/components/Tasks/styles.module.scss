@@ -1,0 +1,68 @@
+.container {
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 7rem auto 0;
+
+    form {
+        display: flex;
+        align-items: flex-end;
+        gap: 2rem;
+    
+        div {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            label {
+                font-size: .85rem;
+            }
+
+            input {
+                height: 40px;
+                width: 100%;
+                padding: 0 .5rem;
+                font-size: 1rem;
+            }
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            background-color: #222222;
+            color: #FEFEFE;
+            cursor: pointer;
+        }
+
+
+    }
+
+    ul {
+        list-style: none;
+        margin-top: 2rem;
+        padding: 0.25rem;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+
+            input {
+                height: 1rem;
+                width: 1rem;
+            }
+
+            label {
+                font-size: 1.2rem;
+            }
+
+        }
+
+        li.taskChecked {
+            background-color: red;
+        }
+
+    }
+
+}
